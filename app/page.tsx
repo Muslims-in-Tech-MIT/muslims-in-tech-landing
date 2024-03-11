@@ -4,7 +4,8 @@ export default function Home() {
   return (
     <main>
       Salam Faiz :/
-      Wslm Basil :)
+      Wslm Basil :/
+      HEHEHHEEHEHEE
     </main>
   );
 }
