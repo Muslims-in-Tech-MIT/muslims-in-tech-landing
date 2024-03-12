@@ -21,9 +21,9 @@ const HeroSection = () => {
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
   <img 
-    src="/images/Hero/basilyusuf.jpeg" 
-    alt="Basil Yousuf" 
-    className="w-62 h-62 md:w-58 md:h-58 object-cover rounded-full shadow-xl" // Adjust w and h classes if neccessary
+    src="/images/Hero/communityimage1.png" 
+    alt="Community Image" 
+    className="w-62 h-62 md:w-45 md:h-45 object-cover rounded-full shadow-xl" // Adjust w and h classes if neccessary
   />
 </div>
 
