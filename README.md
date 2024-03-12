@@ -25,11 +25,11 @@ Refer to the `tailwind.config.js` file to customize fonts, font sizes, and color
 
 ## 🛠 Editing the Project
 
-Dive into the project by editing `app/page.tsx`. Live updates will show as you make changes, offering immediate feedback on your development process.
+Dive into the project by editing `app/page.tsx`. Live updates will show as you make changes!
 
 ---
 
-By adhering to this design system, we ensure that **Your Project's Name** delivers a consistent, accessible, and aesthetically pleasing experience to all users. Happy coding!
+Happy coding!
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
