@@ -21,9 +21,9 @@ const HeroSection = () => {
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
   <img 
-    src="/images/Hero/communityimage1.png" 
+    src="/images/Hero/ai-image.webp" 
     alt="Community Image" 
-    className="w-62 h-62 md:w-45 md:h-45 object-cover rounded-full shadow-xl" // Adjust w and h classes if neccessary
+    className="w-35 h-35 md:w-25 md:h-25 object-cover rounded-full shadow-xl" // Adjust w and h classes if neccessary
   />
 </div>
 
