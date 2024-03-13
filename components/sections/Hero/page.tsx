@@ -8,7 +8,7 @@ const HeroSection = () => {
           Muslims In Tech
         </h1>
         <p className="text-lg text-gray-600">
-            Community to bring together and empower fellow muslims in tech        \
+            Community to bring together and empower fellow muslims in tech
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           {/* <button className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors">
@@ -21,7 +21,7 @@ const HeroSection = () => {
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">
   <img 
-    src="/images/Hero/communityimage1.png" 
+    src="/images/Hero/ai-image.webp" 
     alt="Community Image" 
     className="w-62 h-62 md:w-45 md:h-45 object-cover rounded-full shadow-xl" // Adjust w and h classes if neccessary
   />

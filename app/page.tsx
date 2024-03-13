@@ -4,7 +4,8 @@ import NavbarSection from "@/components/sections/Navbar/page";
 
 export default function Home() {
   return (
-    <main className="mx-auto flex min-h-screen w-screen max-w-[90rem] flex-col">
+    <main className="mx-auto flex min-h-screen w-screen  flex-col">
+      {/* max-w-[100rem] <-- change the width of the screen */}
       <NavbarSection />
       <HeroSection />
       <FooterSection/>
