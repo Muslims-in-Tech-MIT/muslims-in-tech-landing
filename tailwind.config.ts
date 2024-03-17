@@ -9,7 +9,9 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        brand: '#e9e1d1', //Main Background Color (Logo Background)
+        brand: '#e9e1d1', //Main Background Color (Logo Background) // Primary Colour
+        secondary: '#b08968',
+        tertiary: '#7f5539',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

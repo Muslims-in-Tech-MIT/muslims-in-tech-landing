@@ -9,13 +9,13 @@ const HeroSection = () => {
           Community to bring together and empower fellow Muslims in tech
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="bg-secondary text-white font-bold py-3 px-6 rounded-lg hover:bg-tertiary transition-colors">
             Get Started
           </button>
-          <button className="bg-transparent text-blue-600 font-semibold py-3 px-6 rounded-lg border border-blue-600 hover:bg-blue-600 hover:text-white transition-colors">
+          <button className="bg-transparent text-secondary font-semibold py-3 px-6 rounded-lg border border-secondary hover:bg-tertiary hover:text-white transition-colors">
             Learn More
           </button>
-          <button className="bg-transparent text-blue-600 font-semibold py-3 px-6 rounded-lg border border-blue-600 hover:bg-blue-600 hover:text-white transition-colors">
+          <button className="bg-transparent text-secondary font-semibold py-3 px-6 rounded-lg border border-secondary hover:bg-tertiary hover:text-white transition-colors">
             Discord
           </button>
         </div>
