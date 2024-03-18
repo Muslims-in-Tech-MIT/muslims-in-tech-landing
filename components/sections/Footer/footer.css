@@ -1,0 +1,151 @@
+.footer {
+    background-color: #D2B48C;
+    /* Match the navbar color */
+    color: #333;
+    padding: 4rem 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.sb_footer-links_div h4 {
+    font-weight: bold;
+    /* This will make your h4 headings bold */
+    color: #333;
+    /* Adjust the color to fit your design */
+    /* Other styles for h4 can go here */
+}
+
+.sb_footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    /* Align children in a row */
+    justify-content: space-between;
+    /* Evenly space the direct children */
+    align-items: start;
+    /* Align items to the start of the cross axis */
+    flex-wrap: wrap;
+    /* Wrap onto multiple lines if needed */
+    padding: 0 1rem;
+    /* Add padding on the sides */
+}
+
+.sb_footer-links {
+    display: flex;
+    width: 100%;
+    /* Full width to contain its children */
+    justify-content: space-around;
+    /* Evenly space the child divs */
+    flex-wrap: wrap;
+    /* Wrap onto the next line if space runs out */
+}
+
+.sb_footer-links_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align the text to the start for each column */
+    padding: 0.5rem 0;
+    /* Add some vertical padding */
+    flex-basis: 20%;
+    /* Give each column a base width */
+    max-width: 20%;
+    /* Ensure they don't grow beyond this width */
+}
+
+.sb_footer-links_div p strong {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    /* Space below the bold heading */
+}
+
+.sb_footer-links_div a {
+    color: #333;
+    text-decoration: none;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    /* Center align the social media icons */
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    /* Ensure full width to align with the columns above */
+    padding: 1rem 0;
+    /* Add some padding */
+}
+
+.socialmedia img {
+    height: 30px;
+    /* Fixed height for icons */
+    width: auto;
+    /* Maintain aspect ratio */
+}
+
+.sb_footer-below {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* Ensure full width */
+    margin-top: 2rem;
+    /* Space above the bottom section */
+    padding: 1rem 0;
+    /* Add some padding */
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+    /* Full width */
+    margin: 2rem 0;
+    /* Spacing above and below */
+}
+
+.sb_footer-copyright {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0;
+    /* Remove any default margin */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .sb_footer-links_div {
+        flex-basis: 50%;
+        /* Take half the container's width on smaller screens */
+        max-width: 50%;
+        /* Ensure they don't grow beyond this width */
+    }
+
+    .sb_footer-links {
+        justify-content: space-between;
+        /* Space out the child divs evenly */
+    }
+}
+
+@media (max-width: 550px) {
+    .sb_footer-links_div {
+        flex-basis: 100%;
+        /* Each column takes full width on the smallest screens */
+        max-width: 100%;
+        /* Ensure they don't grow beyond this width */
+        align-items: center;
+        /* Center align the text */
+        text-align: center;
+        /* Center align the text */
+    }
+
+    .socialmedia {
+        justify-content: center;
+        /* Center the icons */
+    }
+}
