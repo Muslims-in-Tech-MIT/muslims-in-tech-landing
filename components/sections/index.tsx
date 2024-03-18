@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
+// import React, { FC } from 'react';
 
-const HeroSection: FC = (): React.ReactElement => {
-  return <section>hello world</section>;
-};
+// const HeroSection: FC = (): React.ReactElement => {
+//   return <section>hello world</section>;
+// };
 
-export default HeroSection;
+// export default HeroSection;
