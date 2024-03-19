@@ -17,9 +17,10 @@ const HeroSection = () => {
           <button className="bg-transparent text-secondary font-semibold py-3 px-6 rounded-lg border border-secondary hover:bg-tertiary hover:text-white transition-colors">
             Learn More
           </button>
-          <button className="bg-transparent text-secondary font-semibold py-3 px-6 rounded-lg border border-secondary hover:bg-tertiary hover:text-white transition-colors">
+          {/* <button className="bg-transparent text-secondary font-semibold py-3 px-6 rounded-lg border border-secondary hover:bg-tertiary hover:text-white transition-colors">
             Discord
-          </button>
+          </button> */}
+          <DiscordButton/>
         </div>
       </div>
       <div className="md:w-1/2 mt-8 md:mt-0 flex justify-center md:justify-end">

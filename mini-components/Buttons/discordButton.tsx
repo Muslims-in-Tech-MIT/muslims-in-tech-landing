@@ -6,7 +6,7 @@ const DiscordButton = () => {
 
   return (
     <button
-      className="bg-transparent text-blue-600 font-semibold py-3 px-6 rounded-lg border border-blue-600 hover:bg-blue-600 hover:text-white transition-colors"
+      className="bg-transparent text-secondary font-semibold py-3 px-6 rounded-lg border border-secondary hover:bg-tertiary hover:text-white transition-colors"
       onClick={handleDiscordClick}
     >
       Discord
