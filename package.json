@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .", // Adjust based on your ESLint configuration
+    "test": "jest", // Assumes you're using Jest for testing
+}
+
   },
   "dependencies": {
     "clsx": "^2.1.0",
