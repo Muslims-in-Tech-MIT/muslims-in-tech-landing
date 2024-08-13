@@ -1,14 +1,15 @@
 import React, { FC } from 'react';
+import Image from 'next/image'; 
 
 const AboutUsSection: FC = (): React.ReactElement => {
   return (
-    <section className= "bg-brand px-4 py-8 flex flex-col">
+    <div className= "bg-brand px-4 py-8 flex flex-col">
       <div className = "text-center">
         <p className="text-5xl font-bold text-gray-800">About Us</p>
       </div>
       <div className="flex flex-col md:flex-row items-center">
         <div className = "py-5 flex justify-center md:w-1/2">
-          <img src="/images/AboutUs/aboutUs.png" alt="AboutUs picture" className="rounded-xl"/>
+          <Image src="/images/AboutUs/aboutUs.png" alt="AboutUs picture" className="rounded-xl"/>
         </div>
         <div className="md:w-1/2 text-center px-10 py-20 font-bold text-gray-800">
           <div className="max-w-xl mx-auto">
@@ -23,7 +24,7 @@ const AboutUsSection: FC = (): React.ReactElement => {
           <button className="bg-secondary w-60 py-3 px-6 rounded-xl font-bold text-white hover:bg-tertiary hover:italic transition-colors">Contact Us</button>
         </div> */}
       </div>
-    </section>
+    </div>
   );
 };
 
